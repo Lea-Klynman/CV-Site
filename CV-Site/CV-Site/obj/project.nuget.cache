@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VPNlQtktCjc=",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\CV-Site\\CV-Site.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.203\\microsoft.net.sdk.compilers.toolset.9.0.203.nupkg.sha512"
+  ],
+  "logs": []
+}
