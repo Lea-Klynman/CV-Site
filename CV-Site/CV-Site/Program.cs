@@ -1,17 +1,27 @@
+using GitHub_Service;
+using Microsoft.OpenApi.Models; // Add this using directive for Swagger support  
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services to the container.  
 
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddGitHubintegration(options =>
+{
+    builder.Configuration.GetSection("GitHubIntegrationOptions").Bind(options);
+});
+builder.Services.Configure<GitHubIntegrationOptions>(builder.Configuration.GetSection("GitHubIntegrationOptions"));
+// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi  
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();  
+    app.UseSwaggerUI();  
 }
 
 app.UseAuthorization();
