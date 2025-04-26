@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\GitHub Service\\GitHub Service.csproj": {}
+    "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\GitHub Service\\GitHub Service.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\GitHub Service\\GitHub Service.csproj": {
+    "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\GitHub Service\\GitHub Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\GitHub Service\\GitHub Service.csproj",
+        "projectUniqueName": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\GitHub Service\\GitHub Service.csproj",
         "projectName": "GitHub Service",
-        "projectPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\GitHub Service\\GitHub Service.csproj",
+        "projectPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\GitHub Service\\GitHub Service.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\GitHub Service\\obj\\",
+        "outputPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\GitHub Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

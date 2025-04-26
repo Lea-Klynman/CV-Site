@@ -12,7 +12,6 @@ namespace GitHub_Service
         public static void AddGitHubintegration(this IServiceCollection services, Action<GitHubIntegrationOptions> configuration)
         {
             services.Configure(configuration);
-            services.AddScoped<IGithubService, GithubService>();
         }
     }
 }

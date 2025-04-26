@@ -1,9 +1,14 @@
+using CV_Site.CachingMemoryServices;
 using GitHub_Service;
 using Microsoft.OpenApi.Models; // Add this using directive for Swagger support  
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.  
+builder.Services.AddMemoryCache();
+builder.Services.AddScoped<IGithubService, GithubService>();
+builder.Services.Decorate<IGithubService, CachingMemoryGitHub>();
+
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

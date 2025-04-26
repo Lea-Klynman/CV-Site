@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\CV-Site\\CV-Site.csproj": {}
+    "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\CV-Site.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\CV-Site\\CV-Site.csproj": {
+    "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\CV-Site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\CV-Site\\CV-Site.csproj",
+        "projectUniqueName": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\CV-Site.csproj",
         "projectName": "CV-Site",
-        "projectPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\CV-Site\\CV-Site.csproj",
+        "projectPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\CV-Site.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\CV-Site\\obj\\",
+        "outputPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\GitHub Service\\GitHub Service.csproj": {
-                "projectPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\GitHub Service\\GitHub Service.csproj"
+              "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\GitHub Service\\GitHub Service.csproj": {
+                "projectPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\GitHub Service\\GitHub Service.csproj"
               }
             }
           }
@@ -58,9 +58,17 @@
               "target": "Package",
               "version": "[9.0.4, )"
             },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Octokit": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
@@ -104,14 +112,14 @@
         }
       }
     },
-    "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\GitHub Service\\GitHub Service.csproj": {
+    "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\GitHub Service\\GitHub Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\GitHub Service\\GitHub Service.csproj",
+        "projectUniqueName": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\GitHub Service\\GitHub Service.csproj",
         "projectName": "GitHub Service",
-        "projectPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\GitHub Service\\GitHub Service.csproj",
+        "projectPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\GitHub Service\\GitHub Service.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\CV-Site\\GitHub Service\\obj\\",
+        "outputPath": "D:\\Documents\\תכנות ו\\פרקטיקוד\\CV-Site\\GitHub Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

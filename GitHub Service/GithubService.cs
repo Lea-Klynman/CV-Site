@@ -30,14 +30,14 @@ namespace GitHub_Service
         }
 
 
-        public async Task<int> GetUserPublicRepositopries(string userName)
+        public async Task<int> GetUserPublicRepositopriesAsync(string userName)
         {
             var user = await _client.User.Get(userName);
             return user.PublicRepos;
         }
 
 
-        public async Task<List<Repository>> SearchRepositoriesInCSharp()
+        public async Task<List<Repository>> SearchRepositoriesInCSharpAsync()
         {
             var request = new SearchRepositoriesRequest("repo-name") { Language = Language.CSharp  };
             var result = await _client.Search.SearchRepo(request);
@@ -54,19 +54,18 @@ namespace GitHub_Service
                 
                 
             };
-            request.CustomProperties["is"] = "public";
             var result = await _client.Search.SearchRepo(request);
             
             return result.Items;
         }
 
-        public async Task<IReadOnlyList<Repository>> GetUserRepo()
+        public async Task<IReadOnlyList<Repository>> GetUserRepoAsync()
         {
             return await _client.Repository.GetAllForCurrent();
         }
 
 
-        public async Task<IReadOnlyList<Activity>> GetUserActivities()
+        public async Task<IReadOnlyList<Activity>> GetUserActivitiesAsync()
         {
             return await _client.Activity.Events.GetAllUserPerformed(_options.UserName);
         }
