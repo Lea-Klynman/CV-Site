@@ -41,3 +41,9 @@ D:\Documents\תכנות ו\פרקטיקוד\CV-Site\CV-Site\obj\Debug\net9.0\CV-
 D:\Documents\תכנות ו\פרקטיקוד\CV-Site\CV-Site\obj\Debug\net9.0\CV-Site.dll
 D:\Documents\תכנות ו\פרקטיקוד\CV-Site\CV-Site\obj\Debug\net9.0\refint\CV-Site.dll
 D:\Documents\תכנות ו\פרקטיקוד\CV-Site\CV-Site\obj\Debug\net9.0\CV-Site.pdb
+D:\Documents\תכנות ו\פרקטיקוד\CV-Site\CV-Site\bin\Debug\net9.0\CV-Site.deps.json
+D:\Documents\תכנות ו\פרקטיקוד\CV-Site\CV-Site\bin\Debug\net9.0\CV-Site.runtimeconfig.json
+D:\Documents\תכנות ו\פרקטיקוד\CV-Site\CV-Site\bin\Debug\net9.0\CV-Site.dll
+D:\Documents\תכנות ו\פרקטיקוד\CV-Site\CV-Site\bin\Debug\net9.0\CV-Site.pdb
+D:\Documents\תכנות ו\פרקטיקוד\CV-Site\CV-Site\obj\Debug\net9.0\CV-Site.genruntimeconfig.cache
+D:\Documents\תכנות ו\פרקטיקוד\CV-Site\CV-Site\obj\Debug\net9.0\ref\CV-Site.dll
